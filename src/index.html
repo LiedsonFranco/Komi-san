@@ -1,0 +1,110 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="output.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap" rel="stylesheet">
+  <title>Komi-san</title>
+</head>
+<body class="bg-background p-10 text-primary">
+    <main class="bg-gradient-to-b from-foreground via-foreground-2 to-foreground-3 w-full m-auto rounded-lg relative md:block hidden">
+        <div id="friends" class="absolute left-6 top-[100px]  bg-card flex flex-col gap-2 justify-center items-center p-3 px-6 rounded-2xl w-56 drop-shadow-card z-10 enable" style="box-shadow: 0 15px #45496F;">
+            <div>
+                <p class="text-2xl font-bold text-center">Friends</p>
+                <div class="w-28 h-2 bg-primary rounded-2xl"></div>
+            </div>
+            <div class="w-full flex flex-col gap-1">
+                <div class="w-full lg:h-24 h-18">
+                    <img src="../imgs/tadano-eh.gif" alt="tadano-kun" class="object-cover w-full h-full rounded-xl">
+                </div>
+                <div class="text-sm font-bold flex justify-between">
+                    <h2><i class="fa-solid fa-circle"></i> Tadano Kun</h2>
+                    <p class="text-yellow-500">8.2</p>
+                </div>
+                <div class="overflow-y-hidden h-12 font-extralight">
+                    <p class="text-[8px]">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi quod voluptatum officiis natus debitis vero voluptate, animi eos, vitae sunt quisquam dolorum est harum qui, libero magni. Quam, eligendi vitae.</p>
+                </div>
+                <p class="bg-text-background p-[2px] px-2 rounded-2xl text-sm text-center font-semibold" style="box-shadow: 0px 0px 15px #454569;">My first friend</p>
+            </div>
+            <div class="w-full flex flex-col gap-1">
+                <div class="w-full lg:h-24 h-18">
+                    <img src="../imgs/najime-san.gif" alt="najime-san" class="object-cover w-full h-full rounded-xl">
+                </div>
+                <div class="text-sm font-bold flex justify-between">
+                    <h2 ><i class="fa-solid fa-circle"></i> Najime san</h2>
+                    <p class="text-yellow-500">8.3</p>
+                </div>
+                <div class="overflow-y-hidden h-12 font-extralight">
+                    <p class="text-[8px]">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi quod voluptatum officiis natus debitis vero voluptate, animi eos, vitae sunt quisquam dolorum est harum qui, libero magni. Quam, eligendi vitae.</p>
+                </div>
+                <p class="bg-text-background p-[2px] px-2 rounded-2xl text-sm text-center font-semibold" style="box-shadow: 0px 0px 15px #454569;">My second friend </p>
+            </div>
+        </div>
+        <div id="myName" class="bg-card p-[2px] px-8 w-fit rounded-3xl relative left-[50%] translate-x-[-50%] top-12 z-20 enable">
+            <p class="text-3xl text-primary font-bold"><i class="fa-"></i> 古見 硝子, Komi Shōko</p>
+        </div>
+        <div class="flex flex-col justify-center items-center z-0 enable">
+            <picture>
+                <img src="../imgs/Komi-san.png" alt="Komi-san" class="h-[800px]">
+            </picture>
+        </div>
+        <div id="about-me" class="absolute right-6 top-[100px] bg-card flex flex-col gap-2 justify-center items-center p-3 px-6 rounded-2xl lg:w-80 w-64 drop-shadow-card z-10 enable" style="box-shadow: 0 15px #45496F;">
+            <div>
+                <p class="text-2xl font-bold text-center">About Me</p>
+                <div class="w-36 h-2 bg-primary rounded-2xl"></div>
+            </div>
+            <div class="w-full flex flex-col gap-1">
+                <div class="w-full h-36">
+                    <img src="../imgs/komi-san.webp" alt="komi-san" class="object-cover w-full h-full rounded-xl">
+                </div>
+                <div class="text-sm font-extrabold flex justify-between">
+                    <h2><i class="fa-solid fa-star"></i> Komi Shōko</h2>
+                    <p class="text-yellow-500">8.7</p>
+                </div>
+                <div class="overflow-y-hidden h-16 font-extralight text-[8px]">
+                    <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi quod voluptatum officiis natus debitis vero voluptate, animi eos, vitae sunt quisquam dolorum est harum qui, libero magni. Quam, eligendi vitae.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. At magni perspiciatis eius porro iure delectus aperiam eveniet repellat deserunt laborum facilis fugiat autem unde et ad ipsam, vitae consectetur quam.</p>
+                </div>
+                <p class="bg-text-background p-[2px] px-2 rounded-2xl text-sm text-center font-semibold" style="box-shadow: 0px 0px 15px #454569;">Can't Kommunicate</p>
+            </div>
+        </div>
+        <div class="absolute right-6 top-[480px] bg-card flex flex-col gap-2 justify-center items-center p-3 px-6 rounded-2xl lg:w-80 w-64 drop-shadow-card z-10 enable" style="box-shadow: 0 15px #45496F;">
+            <p class="bg-primary text-foreground w-full text-center font-extrabold rounded-lg py-1 text-xl">Komi for president</p>
+            <button class="p-1 px-6 hover:bg-background transition-colors duration-150 ease-in-out rounded-lg" onclick="vote(this)">VOTE</button>
+           </div>
+        </div>
+        <div id="tags" class="absolute right-6 top-[620px] bg-card flex flex-col gap-2 justify-center items-center p-3 px-6 rounded-2xl lg:w-52 w-40 drop-shadow-card z-10 enable" style="box-shadow: 0 15px #45496F;">
+            <div class="w-[40%] h-2 bg-primary rounded-2xl"></div>
+           <p class="bg-primary text-foreground w-full text-center font-extrabold rounded-lg py-1 text-xl"><span class="font-black">#</span>TAGS</p>
+           <div class=" *:w-max text-xs *:m-[1px]">
+            <button class="p-1 bg-background rounded-lg">#Slice of life</button>
+            <button class="p-1 bg-foreground rounded-lg">#TrapLover</button>
+            <button class="p-1 bg-background rounded-lg">#TrapLover</button>
+            <button class="p-1 bg-foreground rounded-lg">#Comedy</button>
+           </div>
+        </div>
+        <div class="z-50 absolute bottom-16 left-[50%] translate-x-[-50%] hidden" id="music">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/ZRf6b3JbJDk?si=tvM5z0oiiScp_Te4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="rounded-xl"></iframe>
+        </div>
+        <div class="absolute bottom-2 left-[50%] translate-x-[-50%] w-[40%] h-8 bg-background mx-auto rounded-3xl flex flex-row gap-x-3 justify-center items-center p-2 my-2" style="box-shadow: 0 5px #45496F;">
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            <button class="mx-6" onclick="addMusic()"><i class="fa-solid fa-play" id="play-button"></i></button>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        </div>
+        <div class="absolute top-[55%] left-[50%] translate-x-[-50%] enabled hidden w-[150px]" id="vote">
+            <img src="../imgs/komi-logo.png" alt="komi-logo" style="width: inherit;">
+        </div>
+    </main>
+    <section class="md:hidden flex flex-col items-center">
+        <h1 class="text-4xl font-extrabold text-center">Sorry this doesn't work on mobile</h1>
+        <img src="../imgs/sorry.gif" alt="sorry" class="h-[300px] w-[70%] object-cover rounded-xl">
+    </section>
+    <script src="scritp.js"></script>
+</body>
+</html>
